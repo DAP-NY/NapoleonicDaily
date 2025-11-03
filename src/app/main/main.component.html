@@ -1,6 +1,6 @@
 <div *ngIf="isLoaded">
  <img [src]="getImageLink()" referrerpolicy="no-referrer" alt="">
- <span> {{factsArray[2].CONTENT}}</span>
+<span [innerHTML]="factsArray[2].CONTENT"></span>
 </div>
 
 
